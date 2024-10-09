@@ -1,7 +1,5 @@
  # SOM-Based Digit Recognition
  
- ![som](https://github.com/user-attachments/assets/efc8a170-4a31-4259-bfc0-09751a10c7db)
-
 ## Self-Organizing Maps (SOM)
 - Self-Organizing Maps (SOM) are a type of unsupervised artificial neural network that is used for clustering and visualization of high-dimensional data. They operate by mapping input data onto a lower-dimensional grid of neurons while preserving the topological properties of the input space.
 - Each neuron competes to become the "best matching unit" (BMU) for a given input, based on similarity measures such as distance. As the network is trained, the weights of the neurons are adjusted, enabling them to capture patterns and structures within the data.
@@ -17,6 +15,9 @@ This project implements a Self-Organizing Map (SOM) for recognizing handwritten 
   - **z** represents the dominant label of the neuron, indicating the digit it most likely represents.
   
 - Different colors were assigned to each digit to enhance visualization. This allows for easy identification of how neurons are clustered and their representation of various digits. For instance, neurons identifying the digit '2' are primarily located in the top left corner, while those for '0' are predominantly in the bottom right.
+
+ ![som](https://github.com/user-attachments/assets/efc8a170-4a31-4259-bfc0-09751a10c7db)
+
 
 ## Initialization of Weights
 - Weights of the neurons were initialized by calculating the average values of the input vectors and then adding small random values centered around this average. This approach helps the algorithm skip several iterations in finding the optimal solution, thus speeding up convergence.
