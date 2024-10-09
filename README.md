@@ -8,6 +8,7 @@
 ## Overview
 This project implements a Self-Organizing Map (SOM) for recognizing handwritten digits from a dataset. The goal is to visualize and analyze how well the SOM can represent and categorize different digit classes (0-9). The provided executable runs on Windows, presenting an interactive visualization of the learned digit representations.
 
+ ![som](https://github.com/user-attachments/assets/efc8a170-4a31-4259-bfc0-09751a10c7db)
 
 ### Visualization Methodology
 - Each neuron in the SOM was represented by a visual image, labeled as “Neuron (x, y) | Label: z”, where:
@@ -16,7 +17,6 @@ This project implements a Self-Organizing Map (SOM) for recognizing handwritten 
   
 - Different colors were assigned to each digit to enhance visualization. This allows for easy identification of how neurons are clustered and their representation of various digits. For instance, neurons identifying the digit '2' are primarily located in the top left corner, while those for '0' are predominantly in the bottom right.
 
- ![som](https://github.com/user-attachments/assets/efc8a170-4a31-4259-bfc0-09751a10c7db)
 
 
 ## Initialization of Weights
